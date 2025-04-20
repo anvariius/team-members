@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { Modal, TagsRow } from "@/components";
-import type { TeamMember } from "src/pages/members";
-import { Avatar, TextBold, TextMedium, TextSmall, Divider } from "@/ui";
+import { Modal, TagsRow } from "../components";
+import type { MemberSkill, TeamMember } from "../pages/members";
+import { Avatar, TextBold, TextMedium, TextSmall, Divider } from "../ui";
 
 defineProps<{ member: TeamMember | null }>();
 
@@ -37,7 +37,7 @@ defineEmits<{
         <TagsRow
           :tags="member.skills"
           size="lg"
-          @select="(tag) => $emit('selectTag', tag)"
+          @select="(tag: MemberSkill) => $emit('selectTag', tag)"
         />
       </div>
     </div>

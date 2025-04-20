@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { MembersPage } from "@/pages/members";
-import { Loader, ShowError } from "@/components";
+import { MembersPage } from "./pages/members";
+import { Loader, ShowError } from "./components";
 import { onErrorCaptured, ref } from "vue";
 
 const error = ref<Error | null>(null);

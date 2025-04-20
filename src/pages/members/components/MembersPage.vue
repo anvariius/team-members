@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { Header, Content } from "@/components";
-import { MembersList, MembersFilter, MembersModal } from "@/modules";
+import { Header, Content } from "../../../components";
+import { MembersList, MembersFilter, MembersModal } from "../../../modules";
 import { useMembersStore } from "../store";
 import { fetchTeamMembers } from "../api";
-import type { TeamMember } from "../types";
+import type { MemberSkill, TeamMember } from "../types";
 
 const store = useMembersStore();
 
@@ -21,20 +21,20 @@ await fetchTeamMembers().then((members) => store.setMembers(members));
       :active-department="store.activeDepartment"
       :search-query="store.searchQuery"
       @switch-view-type="store.switchViewType()"
-      @set-department="(dep) => store.setActiveDepartment(dep)"
-      @update-search-query="(q) => store.setSearchQuery(q)"
+      @set-department="(dep: string) => store.setActiveDepartment(dep)"
+      @update-search-query="(q: string) => store.setSearchQuery(q)"
     />
     <MembersList
       :members="store.filteredMembers"
       :view-type="store.viewType"
       @set-active-member="(member: TeamMember) => store.setActiveMember(member)"
-      @select-tag="(tag) => store.setSearchQuery(tag)"
+      @select-tag="(tag: MemberSkill) => store.setSearchQuery(tag)"
     />
     <MembersModal
       :member="store.activeMember"
       @close="store.setActiveMember(null)"
       @select-tag="
-        (tag) => {
+        (tag: MemberSkill) => {
           store.setSearchQuery(tag);
           store.setActiveMember(null);
         }

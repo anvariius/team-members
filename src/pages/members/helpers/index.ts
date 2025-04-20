@@ -1,5 +1,5 @@
 import type { TeamMember } from "../types";
-import { includesQuery } from "@/helpers";
+import { includesQuery } from "../../../helpers";
 
 export const searchInMember = (member: TeamMember, query: string) => {
   if (query.trim() === "") return true;

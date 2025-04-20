@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Input } from "@/ui";
+import { Input } from "../ui";
 import { ref } from "vue";
 const { time = 500 } = defineProps<{
   modelValue: string;

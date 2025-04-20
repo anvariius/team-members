@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { Button, Dropdown } from "@/ui";
-import type { ViewTypes } from "src/pages/members";
-import { DebouncedInput } from "@/components";
+import { Button, Dropdown } from "../ui";
+import type { ViewTypes } from "../pages/members";
+import { DebouncedInput } from "../components";
 defineProps<{
   viewType: ViewTypes;
   departments: string[];

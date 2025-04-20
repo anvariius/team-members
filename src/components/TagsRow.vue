@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Tag } from "@/ui";
+import { Tag } from "../ui";
 const { size = "md" as "md" } = defineProps<{
   size?: "md" | "lg";
   tags: string[];

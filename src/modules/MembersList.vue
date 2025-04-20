@@ -4,8 +4,8 @@ import {
   MembersTable,
   IntersectionBlock,
   ShowError,
-} from "@/components";
-import type { MemberSkill, TeamMember, ViewTypes } from "src/pages/members";
+} from "../components";
+import type { MemberSkill, TeamMember, ViewTypes } from "../pages/members";
 import { computed, ref, watch } from "vue";
 
 const { members } = defineProps<{

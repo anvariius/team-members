@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { Avatar, TextBold, TextMedium, TextSmall } from "@/ui";
-import { TagsRow } from "@/components";
-import type { MemberSkill, TeamMember } from "src/pages/members";
+import { Avatar, TextBold, TextMedium, TextSmall } from "../ui";
+import { TagsRow } from "../components";
+import type { MemberSkill, TeamMember } from "../pages/members";
 
 defineProps<{ member: TeamMember }>();
 
