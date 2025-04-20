@@ -1,0 +1,154 @@
+{
+  "teamMembers": [
+    {
+      "id": 1,
+      "name": "Alex Johnson",
+      "position": "Senior Frontend Developer",
+      "department": "Engineering",
+      "email": "alex.johnson@example.com",
+      "skills": ["Vue.js", "JavaScript", "CSS", "Jest", "TypeScript"],
+      "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+      "bio": "Alex has been developing web applications for over 5 years with a focus on Vue.js."
+    },
+    {
+      "id": 2,
+      "name": "Samantha Chen",
+      "position": "UX Designer",
+      "department": "Design",
+      "email": "samantha.chen@example.com",
+      "skills": ["Figma", "UI/UX", "Wireframing", "Prototyping", "User Research"],
+      "avatar": "https://randomuser.me/api/portraits/women/2.jpg",
+      "bio": "Samantha combines aesthetic design with user-centered thinking to create intuitive interfaces."
+    },
+    {
+      "id": 3,
+      "name": "Michael Rodriguez",
+      "position": "Backend Developer",
+      "department": "Engineering",
+      "email": "michael.rodriguez@example.com",
+      "skills": ["Node.js", "Express", "MongoDB", "API Design", "Docker"],
+      "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+      "bio": "Michael specializes in building robust APIs and microservices architectures."
+    },
+    {
+      "id": 4,
+      "name": "Emily Wilson",
+      "position": "Product Manager",
+      "department": "Product",
+      "email": "emily.wilson@example.com",
+      "skills": ["Product Strategy", "Agile", "User Stories", "Roadmapping", "Analytics"],
+      "avatar": "https://randomuser.me/api/portraits/women/4.jpg",
+      "bio": "Emily excels at translating business requirements into product features that users love."
+    },
+    {
+      "id": 5,
+      "name": "David Kim",
+      "position": "DevOps Engineer",
+      "department": "Operations",
+      "email": "david.kim@example.com",
+      "skills": ["CI/CD", "AWS", "Kubernetes", "Terraform", "Linux"],
+      "avatar": "https://randomuser.me/api/portraits/men/5.jpg",
+      "bio": "David ensures smooth deployments and maintains our cloud infrastructure."
+    },
+    {
+      "id": 6,
+      "name": "Sophia Martinez",
+      "position": "Frontend Developer",
+      "department": "Engineering",
+      "email": "sophia.martinez@example.com",
+      "skills": ["Vue.js", "React", "CSS", "Responsive Design", "Accessibility"],
+      "avatar": "https://randomuser.me/api/portraits/women/6.jpg",
+      "bio": "Sophia is passionate about creating accessible and performant web experiences."
+    },
+    {
+      "id": 7,
+      "name": "James Wilson",
+      "position": "Data Scientist",
+      "department": "Data",
+      "email": "james.wilson@example.com",
+      "skills": ["Python", "Machine Learning", "Data Visualization", "SQL", "TensorFlow"],
+      "avatar": "https://randomuser.me/api/portraits/men/7.jpg",
+      "bio": "James turns complex data into actionable insights for product decisions."
+    },
+    {
+      "id": 8,
+      "name": "Olivia Thompson",
+      "position": "QA Engineer",
+      "department": "Quality Assurance",
+      "email": "olivia.thompson@example.com",
+      "skills": ["Test Automation", "Selenium", "Cypress", "API Testing", "Test Planning"],
+      "avatar": "https://randomuser.me/api/portraits/women/8.jpg",
+      "bio": "Olivia ensures our applications meet the highest quality standards."
+    },
+    {
+      "id": 9,
+      "name": "Daniel Lee",
+      "position": "Full Stack Developer",
+      "department": "Engineering",
+      "email": "daniel.lee@example.com",
+      "skills": ["Vue.js", "Node.js", "MongoDB", "GraphQL", "Docker"],
+      "avatar": "https://randomuser.me/api/portraits/men/9.jpg",
+      "bio": "Daniel enjoys building end-to-end solutions and learning new technologies."
+    },
+    {
+      "id": 10,
+      "name": "Isabella Garcia",
+      "position": "Project Manager",
+      "department": "Project Management",
+      "email": "isabella.garcia@example.com",
+      "skills": ["Agile", "Scrum", "Risk Management", "Stakeholder Communication", "Jira"],
+      "avatar": "https://randomuser.me/api/portraits/women/10.jpg",
+      "bio": "Isabella keeps projects on track and teams aligned with business goals."
+    },
+    {
+      "id": 11,
+      "name": "Ethan Brown",
+      "position": "UI Developer",
+      "department": "Engineering",
+      "email": "ethan.brown@example.com",
+      "skills": ["Vue.js", "CSS", "Animation", "Tailwind", "Design Systems"],
+      "avatar": "https://randomuser.me/api/portraits/men/11.jpg",
+      "bio": "Ethan bridges the gap between design and engineering with pixel-perfect implementations."
+    },
+    {
+      "id": 12,
+      "name": "Ava Williams",
+      "position": "Content Strategist",
+      "department": "Marketing",
+      "email": "ava.williams@example.com",
+      "skills": ["Content Planning", "Copywriting", "SEO", "Brand Voice", "Analytics"],
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+      "bio": "Ava crafts compelling narratives that engage users and support business objectives."
+    },
+    {
+      "id": 13,
+      "name": "Noah Taylor",
+      "position": "Security Engineer",
+      "department": "Security",
+      "email": "noah.taylor@example.com",
+      "skills": ["Penetration Testing", "Security Audits", "Authentication", "Encryption", "OWASP"],
+      "avatar": "https://randomuser.me/api/portraits/men/13.jpg",
+      "bio": "Noah protects our applications and user data from security threats."
+    },
+    {
+      "id": 14,
+      "name": "Mia Anderson",
+      "position": "Frontend Team Lead",
+      "department": "Engineering",
+      "email": "mia.anderson@example.com",
+      "skills": ["Vue.js", "Team Leadership", "Architecture", "Mentoring", "Performance Optimization"],
+      "avatar": "https://randomuser.me/api/portraits/women/14.jpg",
+      "bio": "Mia leads our frontend initiatives and mentors junior developers."
+    },
+    {
+      "id": 15,
+      "name": "Liam Jackson",
+      "position": "Mobile Developer",
+      "department": "Engineering",
+      "email": "liam.jackson@example.com",
+      "skills": ["Flutter", "React Native", "iOS", "Android", "Mobile UX"],
+      "avatar": "https://randomuser.me/api/portraits/men/15.jpg",
+      "bio": "Liam creates seamless experiences across mobile platforms."
+    }
+  ]
+}
